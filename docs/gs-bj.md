@@ -9,7 +9,7 @@ UCF(Unified Capacity Framework)统一能力框架是IUAP平台5.0核心框架，
 
 围绕这五大核心模块，IUAP平台及各个领域服务还会在UCF框架基础上持续建设周边配套，实现中台能力孵化、运营、业务管理、数据分析及考核等相关服务，比如UCF-CP(能力广场)、UCF-TOOL（能力孵化工具包）等。
 
-UCF是IUAP平台基于中台理念定义和实现的企业云服务建设基本方法论和最佳实践，中台不是平台，中台是所有参与者的中台，UCF致力于为企业云服务的发展提供坚实的底座，与企业云共同发展、相互促进 ，实现真正的共创共赢。<br />![图片 1.png](https://cdn.nlark.com/yuque/0/2019/png/85184/1550303948046-6a4225b4-0775-4780-8fc7-a71ad2aa4db5.png#align=left&display=inline&height=611&name=%E5%9B%BE%E7%89%87%201.png&originHeight=709&originWidth=865&size=155526&width=746)<br />图：UCF五指示意图
+UCF是IUAP平台基于中台理念定义和实现的企业云服务建设基本方法论和最佳实践，中台不是平台，中台是所有参与者的中台，UCF致力于为企业云服务的发展提供坚实的底座，与企业云共同发展、相互促进 ，实现真正的共创共赢。<br />![图片 1.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1550303948046-6a4225b4-0775-4780-8fc7-a71ad2aa4db5.png#align=left&display=inline&height=611&name=%E5%9B%BE%E7%89%87%201.png&originHeight=709&originWidth=865&size=155526&width=746)<br />图：UCF五指示意图
 <a name="e4cc1383"></a>
 ## UCF 核心组成
 
