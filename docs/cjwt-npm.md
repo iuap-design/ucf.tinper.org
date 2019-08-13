@@ -16,7 +16,7 @@
 ## 案例二：由于安装时的权限问题导致install失败
 <a name="4c07b53d"></a>
 ### 场景描述
-![51453751-30991600-1d7c-11e9-8113-7e796c8557c8.png](https://cdn.nlark.com/yuque/0/2019/png/85184/1548397931757-55024065-dc24-444f-8011-55db00f776de.png#align=left&display=inline&height=347&name=51453751-30991600-1d7c-11e9-8113-7e796c8557c8.png&originHeight=560&originWidth=1205&size=86938&status=done&width=746)
+![51453751-30991600-1d7c-11e9-8113-7e796c8557c8.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1548397931757-55024065-dc24-444f-8011-55db00f776de.png#align=left&display=inline&height=347&name=51453751-30991600-1d7c-11e9-8113-7e796c8557c8.png&originHeight=560&originWidth=1205&size=86938&status=done&width=746)
 
 <a name="094c47ac-1"></a>
 ### 问题分析

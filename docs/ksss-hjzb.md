@@ -16,7 +16,7 @@
 
 <a name="21cdf459"></a>
 ### 安装cli工具
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550629201171-d6828c27-bf0f-48e7-8cc9-11e17c8bb18a.png#align=left&display=inline&height=53&name=image.png&originHeight=56&originWidth=377&size=4577&status=done&width=358)
+![image.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550629201171-d6828c27-bf0f-48e7-8cc9-11e17c8bb18a.png#align=left&display=inline&height=53&name=image.png&originHeight=56&originWidth=377&size=4577&status=done&width=358)
 
 安装cli工具来获得最新微服务工程框架，通过npm安装全局使用(注意权限问题)：
 
@@ -31,4 +31,4 @@ ucf -v
 ucf -h
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/gif/192735/1548558552333-14381228-5e61-42d3-8d56-cb4b84e1e795.gif#align=left&display=inline&height=501&originHeight=501&originWidth=669&size=0&status=done&width=669)
+![](http://cdn.nlark.com/yuque/0/2019/gif/192735/1548558552333-14381228-5e61-42d3-8d56-cb4b84e1e795.gif#align=left&display=inline&height=501&originHeight=501&originWidth=669&size=0&status=done&width=669)

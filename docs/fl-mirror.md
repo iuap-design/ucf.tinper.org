@@ -15,7 +15,7 @@ React/Redux 应用看起来像下面这样：
 
 存在的问题？太多的 [样板文件](https://github.com/reactjs/redux/blob/master/docs/recipes/ReducingBoilerplate.md) 以及繁琐甚至重复的劳动。<br />实际上，上述大部分操作都是可以简化的。比如，在单个 API 中创建所有的 action 和 reducer；比如，简单地调用一个函数来 dispatch 所有的同步和异步 action，且不需要额外引入 middleware；再比如，使用路由的时候只需要关心定义具体的路由，不用去关心 history 对象，等等。<br />这正是 Mirror 的使命，用极少数的 API 封装所有繁琐甚至重复的工作，提供一种简洁高效的更高级抽象，同时保持原有的开发模式。
 
- ![a.png](https://cdn.nlark.com/yuque/0/2019/png/257952/1548654673263-e3986345-1ae7-43c9-9209-710a1f5140c0.png#align=left&display=inline&height=402&name=a.png&originHeight=916&originWidth=1698&size=337980&status=done&width=746)
+ ![a.png](http://cdn.nlark.com/yuque/0/2019/png/257952/1548654673263-e3986345-1ae7-43c9-9209-710a1f5140c0.png#align=left&display=inline&height=402&name=a.png&originHeight=916&originWidth=1698&size=337980&status=done&width=746)
 <a name="SeiN0"></a>
 ## 2.Mirror的安装及使用
 <a name="6BU4O"></a>

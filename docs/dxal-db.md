@@ -8,7 +8,7 @@
 
 首先我们来看一下，整体的微应用开发的项目是什么样子的，如图：
 
-![1@2x.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550468087626-00577c6f-7a44-4e62-83e5-6d85477c7904.png#align=left&display=inline&height=385&name=1%402x.png&originHeight=1732&originWidth=3358&size=228949&status=done&width=746)
+![1@2x.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550468087626-00577c6f-7a44-4e62-83e5-6d85477c7904.png#align=left&display=inline&height=385&name=1%402x.png&originHeight=1732&originWidth=3358&size=228949&status=done&width=746)
 
 可以看出这个只是一个简单的增删改查组织系统，涉及到tinper-bee组件的使用、自定义封装组件、业务组件拆分等部分，下面通过详细讲解如何开发该类型系统。
 
@@ -21,11 +21,11 @@
 
 > 整体组件划分界面：
 
-![1@2x.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550477760394-1f456b55-9d1d-4a34-97d0-14ecdb006d02.png#align=left&display=inline&height=382&name=1%402x.png&originHeight=1718&originWidth=3358&size=244977&status=done&width=746)
+![1@2x.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550477760394-1f456b55-9d1d-4a34-97d0-14ecdb006d02.png#align=left&display=inline&height=382&name=1%402x.png&originHeight=1718&originWidth=3358&size=244977&status=done&width=746)
 
 > 新增弹出框：
 
-![2@2x.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550478541120-a83649db-1630-49df-a2c9-e86ebbe28538.png#align=left&display=inline&height=180&name=2%402x.png&originHeight=462&originWidth=1910&size=51023&status=done&width=746)
+![2@2x.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550478541120-a83649db-1630-49df-a2c9-e86ebbe28538.png#align=left&display=inline&height=180&name=2%402x.png&originHeight=462&originWidth=1910&size=51023&status=done&width=746)
 
 1. 头部区域
 1. 搜索区域
@@ -42,11 +42,11 @@
 通过上面的组件拆分分析后，我们得知，组件不是野蛮拆分，到处拆分，需要按照业务部分合理拆分，下面大致说下原则：
 
 1. 微应用(ucf-apps)的组件拆分在自己的根目录`components`下存放；
-  1. ![3@2x.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550479646510-c599e2e6-fdf6-47e6-bd9d-c5da896b7bd8.png#align=left&display=inline&height=216&name=3%402x.png&originHeight=480&originWidth=402&size=47383&status=done&width=181)
+  1. ![3@2x.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550479646510-c599e2e6-fdf6-47e6-bd9d-c5da896b7bd8.png#align=left&display=inline&height=216&name=3%402x.png&originHeight=480&originWidth=402&size=47383&status=done&width=181)
 2. 如果多个微应用依赖2个以上的组件，那么需要存放在 `ucf-common/src/components` 下；
-  1. ![4@2x.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550479713619-631dc0c9-4106-4746-9e9f-26ae4f2883a3.png#align=left&display=inline&height=255&name=4%402x.png&originHeight=482&originWidth=344&size=36225&status=done&width=182)
+  1. ![4@2x.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550479713619-631dc0c9-4106-4746-9e9f-26ae4f2883a3.png#align=left&display=inline&height=255&name=4%402x.png&originHeight=482&originWidth=344&size=36225&status=done&width=182)
 3. 需要的公共静态资源如图片、字体、图标等需要放在`ucf-common/src/static`下；
-  1. ![5@2x.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550479845330-f911eb73-e6de-4a34-9e7c-f293bfe1b532.png#align=left&display=inline&height=238&name=5%402x.png&originHeight=440&originWidth=340&size=35981&status=done&width=184)
+  1. ![5@2x.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550479845330-f911eb73-e6de-4a34-9e7c-f293bfe1b532.png#align=left&display=inline&height=238&name=5%402x.png&originHeight=440&originWidth=340&size=35981&status=done&width=184)
 4. 公共函数库放置在`ucf-common/src/utils`下；
 
 <a name="72a1996e"></a>
@@ -69,7 +69,7 @@ bootList: [
 ]
 ```
 
-这样就创建好一个空的微应用，输入启动命令 `npm start` 访问 [http://127.0.0.1:3000/org-app](http://127.0.0.1:3000/org-app)<br />![1.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550485892246-280e3c9c-29dd-4105-b1e2-9ae48c956064.png#align=left&display=inline&height=126&name=1.png&originHeight=268&originWidth=670&size=22001&status=done&width=315)
+这样就创建好一个空的微应用，输入启动命令 `npm start` 访问 [http://127.0.0.1:3000/org-app](http://127.0.0.1:3000/org-app)<br />![1.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550485892246-280e3c9c-29dd-4105-b1e2-9ae48c956064.png#align=left&display=inline&height=126&name=1.png&originHeight=268&originWidth=670&size=22001&status=done&width=315)
 <a name="b6a499f7"></a>
 ### 微应用目录说明
 
@@ -171,7 +171,7 @@ export default App;
 
 ```
 
-添加引用 <Header /> 组件、样式，然后在 render 里面渲染使用该组件，传入标题文字”组织管理“，效果如下：<br />![2.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550488692006-b745e758-8061-4237-8afe-ecd864ec1d94.png#align=left&display=inline&height=328&name=2.png&originHeight=1478&originWidth=3358&size=136879&status=done&width=746)
+添加引用 <Header /> 组件、样式，然后在 render 里面渲染使用该组件，传入标题文字”组织管理“，效果如下：<br />![2.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550488692006-b745e758-8061-4237-8afe-ecd864ec1d94.png#align=left&display=inline&height=328&name=2.png&originHeight=1478&originWidth=3358&size=136879&status=done&width=746)
 
 <a name="1e2ec910"></a>
 ## 第三步：实现表格数据渲染
@@ -495,7 +495,7 @@ export default App;
 
 运行后的效果如下：
 
-![3.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550490302410-56225e81-3b8c-49ee-8a59-e82fb6ee6808.png#align=left&display=inline&height=374&name=3.png&originHeight=1680&originWidth=3354&size=213306&status=done&width=746)<br />目前我们的页面只有一个显示标题和一个基本数据展示的表格，下面添加搜索区域组件
+![3.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550490302410-56225e81-3b8c-49ee-8a59-e82fb6ee6808.png#align=left&display=inline&height=374&name=3.png&originHeight=1680&originWidth=3354&size=213306&status=done&width=746)<br />目前我们的页面只有一个显示标题和一个基本数据展示的表格，下面添加搜索区域组件
 
 <a name="dd774cef"></a>
 ## 第四步：实现表单查询
@@ -774,7 +774,7 @@ return (
 
 运行后截图如下：
 
-![4.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550491814388-d3475d83-52e6-4457-b387-4f5c3a750291.png#align=left&display=inline&height=383&name=4.png&originHeight=1704&originWidth=3320&size=222554&status=done&width=746)
+![4.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550491814388-d3475d83-52e6-4457-b387-4f5c3a750291.png#align=left&display=inline&height=383&name=4.png&originHeight=1704&originWidth=3320&size=222554&status=done&width=746)
 
 <a name="53eb244c"></a>
 ## 第五步：完善表格操作
@@ -796,7 +796,7 @@ import Button from 'components/Button';
   <Button iconType="uf-del" onClick={this.handlerDelete}>删除</Button>
 </div>
 ```
-运行后的效果如下：<br />![5.png](https://cdn.nlark.com/yuque/0/2019/png/192735/1550491985509-34e6a1de-819e-48ac-b0ec-b93485080d59.png#align=left&display=inline&height=387&name=5.png&originHeight=1726&originWidth=3324&size=227085&status=done&width=746)
+运行后的效果如下：<br />![5.png](http://cdn.nlark.com/yuque/0/2019/png/192735/1550491985509-34e6a1de-819e-48ac-b0ec-b93485080d59.png#align=left&display=inline&height=387&name=5.png&originHeight=1726&originWidth=3324&size=227085&status=done&width=746)
 
 <a name="02bde435"></a>
 ### 编写弹出层
