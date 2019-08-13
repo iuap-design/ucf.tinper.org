@@ -21,7 +21,7 @@ $ ucf new app
 
 
 
-![ucf-new-app.gif](https://cdn.nlark.com/yuque/0/2019/gif/192735/1553065064713-257f63d7-ffc9-4b36-a53f-512d61a318ff.gif#align=left&display=inline&height=481&name=ucf-new-app.gif&originHeight=481&originWidth=671&size=74110&status=done&width=671)
+![ucf-new-app.gif](http://cdn.nlark.com/yuque/0/2019/gif/192735/1553065064713-257f63d7-ffc9-4b36-a53f-512d61a318ff.gif#align=left&display=inline&height=481&name=ucf-new-app.gif&originHeight=481&originWidth=671&size=74110&status=done&width=671)
 
 <a name="eef2657a"></a>
 ## 修改配置并启动

@@ -22,7 +22,7 @@ migrate init
 2. 等待工具帮助我们迁移完成
 
 
-![GIF.gif](https://cdn.nlark.com/yuque/0/2019/gif/257952/1552099628476-69ce7646-8513-43ed-9573-a37d19cde935.gif#align=left&display=inline&height=514&name=GIF.gif&originHeight=635&originWidth=922&size=25463&status=done&width=746)
+![GIF.gif](http://cdn.nlark.com/yuque/0/2019/gif/257952/1552099628476-69ce7646-8513-43ed-9573-a37d19cde935.gif#align=left&display=inline&height=514&name=GIF.gif&originHeight=635&originWidth=922&size=25463&status=done&width=746)
 <a name="f411d0f1"></a>
 ## 说明
 

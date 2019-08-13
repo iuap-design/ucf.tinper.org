@@ -10,9 +10,9 @@ ucf-web 微前端工程主要是通过 `[ucf-scripts](https://github.com/iuap-d
 
 UCF微前端工程核心配置文件只有一个 `ucf.config.js` ，下面对配置文件具体说明。
 
-> 文件中部分不使用的配置属性可以将其删除。
+> **文件中部分不使用的配置属性可以将其删除。**
 
-
+**
 ```javascript
 module.exports = () => {
     return {
@@ -485,7 +485,20 @@ dist_root: 'dist'
 dist_root: '../../../JavaWeb/Maven/webapp/src/static'
 ```
 
+<a name="Jro00"></a>
+### host
+启动UCF服务的时候绑定的IP或域名，支持IPV4、IPV6
+
+```javascript
+// 绑定自定义域名
+host: 'game.imyy.org'
+
+// 绑定自定义IP
+host: '10.1.26.87'
+```
+
 ---
+
 
 <a name="3337c28d"></a>
 ## 5. 常见问题
@@ -529,6 +542,17 @@ babel_plugins: [
 ```bash
   "scripts": {
     "start": "ucf-scripts start --homepage=demo-app-org",
+    "build": "ucf-scripts build"
+  }
+```
+
+<a name="YNg1B"></a>
+### 修改自定义端口
+通过配置npm启动命令来实现调试运行后自动开启浏览器<br />`packages.json` scripts 命令行传入`--port`
+
+```javascript
+  "scripts": {
+    "start": "ucf-scripts start --port=9000",
     "build": "ucf-scripts build"
   }
 ```

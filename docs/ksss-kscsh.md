@@ -9,7 +9,7 @@
 ucf init ucf-project
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/gif/192735/1548558921099-eeefc558-150a-4cfa-aab6-4406900dd50e.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
+![](http://cdn.nlark.com/yuque/0/2019/gif/192735/1548558921099-eeefc558-150a-4cfa-aab6-4406900dd50e.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
 
 - 如果你只是想初始化工程，在当前目录已经有`git`仓库的情况下，进入你存在版本控制文件夹后，执行如下：
 
@@ -20,7 +20,7 @@ ucf init ucf-project
 ucf init
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/gif/192735/1548558448433-3ad4d520-6220-4a15-a81c-53b658532ef6.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
+![](http://cdn.nlark.com/yuque/0/2019/gif/192735/1548558448433-3ad4d520-6220-4a15-a81c-53b658532ef6.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
 
 <a name="269f35f8"></a>
 ## 依赖安装
@@ -37,7 +37,7 @@ cnpm install
 ynpm install
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/gif/192735/1548572629142-e3ff2ca1-9e5f-447f-a926-1c6c30eb5e48.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
+![](http://cdn.nlark.com/yuque/0/2019/gif/192735/1548572629142-e3ff2ca1-9e5f-447f-a926-1c6c30eb5e48.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
 
 
 <a name="4c763bb6"></a>
@@ -49,7 +49,7 @@ ynpm install
 npm start
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/gif/192735/1548573820996-949ce7b6-18b8-4aa3-8302-d353df9fa3eb.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
+![](http://cdn.nlark.com/yuque/0/2019/gif/192735/1548573820996-949ce7b6-18b8-4aa3-8302-d353df9fa3eb.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
 
 <a name="0796f2ff"></a>
 ### 如何访问
@@ -82,5 +82,5 @@ ucf 工程上线之前的前端构建如下：
 npm run build
 ```
 
-![](https://cdn.nlark.com/yuque/0/2019/gif/192735/1548574422727-57777768-235c-4595-bd15-802ee039d850.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
+![](http://cdn.nlark.com/yuque/0/2019/gif/192735/1548574422727-57777768-235c-4595-bd15-802ee039d850.gif#align=left&display=inline&height=504&originHeight=504&originWidth=671&size=0&status=done&width=671)
 
