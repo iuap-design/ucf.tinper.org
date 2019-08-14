@@ -9,7 +9,7 @@
 ### 1.1 架构设计
 UCF-Web 中将前端基础工程化能力（资源构建、开发调试等）、标准组件体系、应用状态管理和路由解决方案、前端开发规范、最佳实践案例、微前端架构设计等能力融为一体，详细架构设计参照下图：
 
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564628781866-78d7d682-35d4-4317-aa36-313d641bf574.png#align=left&display=inline&height=720&name=image.png&originHeight=1440&originWidth=3236&size=2060479&status=done&width=1618)
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/2.png)
 
 <a name="ELJSX"></a>
 ### 1.2 关键特性
@@ -28,7 +28,7 @@ UCF-Web 中提供了两个基于 Node.js 封装的前端CLI工具-UCF-CLI 和 UC
 - UCF-CLI ：用户快速初始化项目，快速创建页面模板，以及其他GUI 交互模式；
 - UCF-Scripts：用于实现个性化项目的前端工作流配置、前端整体资源的构建（编译、打包、压缩、合并、校验等）
 
-![1564630699893.jpg](http://cdn.nlark.com/yuque/0/2019/jpeg/85184/1564630714849-a921a5c8-36e2-4b38-a249-6ec85c0c937c.jpeg#align=left&display=inline&height=1936&name=1564630699893.jpg&originHeight=1936&originWidth=2564&size=277841&status=done&width=2564)
+![1564630699893.jpg](http://design.yonyoucloud.com/static/ucf-web/images/3.jpeg)
 
 初始化之后的项目规范：
 
@@ -54,7 +54,7 @@ UCF-Web 中提供了两个基于 Node.js 封装的前端CLI工具-UCF-CLI 和 UC
 <a name="xs97I"></a>
 ### 1.4 开源推进情况
 
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564631369171-ca1471d0-284b-48b9-8478-377e8a1a4ea1.png#align=left&display=inline&height=1084&name=image.png&originHeight=2168&originWidth=4044&size=2007578&status=done&width=2022)
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/4.png)
 
 
 <a name="p1tFG"></a>
@@ -90,11 +90,11 @@ ucf-web 微前端框架是工具与最佳实践融合，分两部分进行说明
 
 UCF-Web 中采用基于 iuap design 设计语言的前端开源组件库 tinper-bee，tinper-bee 是用友云平台大前端团队从2016 年开始开发的面向企业级应用的开源组件库。[详细体验能力可以通过：bee.tinper.org 访问。](http://bee.tinper.org/)
 
-![屏幕快照 2019-08-01 上午11.20.43.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564629801939-145f6330-55c9-4995-82d1-1533de216247.png#align=left&display=inline&height=466&name=%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-01%20%E4%B8%8A%E5%8D%8811.20.43.png&originHeight=1800&originWidth=2880&size=981386&status=done&width=746)
+![屏幕快照 2019-08-01 上午11.20.43.png](http://design.yonyoucloud.com/static/ucf-web/images/5.png)
 
-![屏幕快照 2019-08-01 上午11.20.48.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564629794318-41a531e6-1cfe-4d11-8fd1-f113496bce16.png#align=left&display=inline&height=1800&name=%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-01%20%E4%B8%8A%E5%8D%8811.20.48.png&originHeight=1800&originWidth=2880&size=520668&status=done&width=2880)
+![屏幕快照 2019-08-01 上午11.20.48.png](http://design.yonyoucloud.com/static/ucf-web/images/6.png)
 
-![屏幕快照 2019-08-01 上午11.58.20.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564631975209-b8518436-ede7-436d-8800-654c43447dea.png#align=left&display=inline&height=1800&name=%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-01%20%E4%B8%8A%E5%8D%8811.58.20.png&originHeight=1800&originWidth=2880&size=602089&status=done&width=2880)
+![屏幕快照 2019-08-01 上午11.58.20.png](http://design.yonyoucloud.com/static/ucf-web/images/7.png)
 <a name="umf7d"></a>
 ### 3.3 对微前端架构理念的实现
 
@@ -119,24 +119,24 @@ _我们已经从引入_[_微服务架构_](https://www.thoughtworks.com/radar/te
 
 
 
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564630154820-3c6dff52-dfb4-463a-b8a8-2d7b1e9950ab.png#align=left&display=inline&height=820&name=image.png&originHeight=1640&originWidth=3640&size=932954&status=done&width=1820)
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/8.png)
 
 实现的关键技术挑战和特性：
 
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564630110559-e8274fd0-f5fd-4a86-9369-095effbaea62.png#align=left&display=inline&height=898&name=image.png&originHeight=1796&originWidth=2408&size=1161603&status=done&width=1204)
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/9.png)
 
 <a name="Ko0Vc"></a>
 ### 3.4 最佳实践
-![屏幕快照 2019-08-01 上午11.25.15.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564630009170-9dc47c7e-dbae-4f97-8ea4-46c6a0caba5f.png#align=left&display=inline&height=1800&name=%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-01%20%E4%B8%8A%E5%8D%8811.25.15.png&originHeight=1800&originWidth=2880&size=570638&status=done&width=2880)
+![屏幕快照 2019-08-01 上午11.25.15.png](http://design.yonyoucloud.com/static/ucf-web/images/10.png)
 
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564629956977-96bdf052-ebcb-42a5-95de-f33a76510e92.png#align=left&display=inline&height=336&name=image.png&originHeight=448&originWidth=937&size=63941&status=done&width=703)
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/11.png)
 
 <a name="XNdAf"></a>
 ## 三、推广应用情况
 
 <a name="Eq2l9"></a>
 ### 3.1 部分应用情况说明
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564631111539-c472418b-3364-4ecc-96af-9ca5b7af0865.png#align=left&display=inline&height=448&name=image.png&originHeight=448&originWidth=670&size=70856&status=done&width=670)
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/12.png)
 
 **用友系产品：**
 
@@ -156,8 +156,8 @@ _我们已经从引入_[_微服务架构_](https://www.thoughtworks.com/radar/te
 
 <a name="choLc"></a>
 ### 3.2 部分效果展示
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564630857304-69b7d0fa-4805-49ef-853c-693fccd2d7c5.png#align=left&display=inline&height=207&name=image.png&originHeight=267&originWidth=960&size=439212&status=done&width=746)<br />（图示：贵冶-智能工厂）<br />![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564630840618-08e26ba4-51ce-4725-bc78-33c88505da63.png#align=left&display=inline&height=419&name=image.png&originHeight=435&originWidth=775&size=109453&status=done&width=746)<br />（图示：华新丽华-MES）
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/13.png)<br />（图示：贵冶-智能工厂）<br />![image.png](http://design.yonyoucloud.com/static/ucf-web/images/14.png)<br />（图示：华新丽华-MES）
 
-![image.png](http://cdn.nlark.com/yuque/0/2019/png/85184/1564630828234-e6d94205-5bf9-4756-bfbc-d99d76c69d2a.png#align=left&display=inline&height=389&name=image.png&originHeight=441&originWidth=845&size=71886&status=done&width=746)<br />（图示：NC Cloud 部分效果，底层采用的UCF-Web）
+![image.png](http://design.yonyoucloud.com/static/ucf-web/images/15.png)<br />（图示：NC Cloud 部分效果，底层采用的UCF-Web）
 
 
