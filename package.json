@@ -7,8 +7,7 @@
     "dev": "node --inspect app/app.js",
     "start": "node app/app.js",
     "appendFoot": "node app/utils/appendFoot.js",
-    "book": "yuque2book -t rVk2O4TalIxs94cQNuhZvWZtefb0vxQzHn6uFDum -l https://www.yuque.com/tinper/hdewp6",
-    "sync": "yuque-sync -n 210640 -d ./docs && cp ./docs/sidebar.json ./static/"
+    "book": "yuque2book -t xxxxx -l https://www.yuque.com/tinper/hdewp6"
   },
   "repository": {
     "type": "git",
