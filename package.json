@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "node --inspect app/app.js",
     "start": "node app/app.js",
+    "appendFoot": "node app/utils/appendFoot.js",
+    "book": "yuque2book -t rVk2O4TalIxs94cQNuhZvWZtefb0vxQzHn6uFDum -l https://www.yuque.com/tinper/hdewp6",
     "sync": "yuque-sync -n 210640 -d ./docs && cp ./docs/sidebar.json ./static/"
   },
   "repository": {
@@ -32,7 +34,6 @@
   "homepage": "https://github.com/iuap-design/ucf.tinper.org#readme",
   "devDependencies": {},
   "dependencies": {
-    "@yonyou/yuque-sync": "^0.2.1",
     "fs-extra": "^7.0.1",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
