@@ -7,6 +7,13 @@
     background-color: #fff;
     /* display: none; */
 }
+.doc-toc___1croK .doc-item-active___1ECGH{
+    color:#E14C46;
+    border-color: #E14C46;
+}
+.doc-toc___1croK .doc-item-active___1ECGH:hover{
+    color:#E14C46;
+}
 .doc___1nCBn{
     font-size: 14px;
 }
